@@ -1,0 +1,45 @@
+#container {
+  width: 600px;
+  border: solid 1px gray;
+}
+
+#timer-span, #results-span {
+  font-size: 2em;
+}
+
+#words {
+  overflow: hidden;
+  height: 140px;
+  font-size: 2em;
+}
+
+#row {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: -0px;
+}
+
+span {
+  padding: 2px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.current-word {
+  background-color: lightgray;
+}
+
+#user-input-text {
+  height: 50px;
+  font-size: 2em;
+}
+
+.wrong {
+  color: red
+}
+
+.correct {
+  color: green;
+}
